@@ -24,7 +24,9 @@ const config: Config = {
         colombianBlue: "#003087",
         colombianRed: "#C8102E",
       },
+      
     },
+    
   },
   plugins: [],
 };
