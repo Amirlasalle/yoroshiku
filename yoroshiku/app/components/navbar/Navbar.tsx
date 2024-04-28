@@ -10,13 +10,15 @@ const Navbar = () => {
             <div className="max-w-[1500px] mx-auto px-6">
                 <div className="flex justify-between items-center">
                     <Link href='/'>
-                    <Image 
-                    src='/宜しく.png'
+                    <Image
+                    className="" 
+                    src='/logo/yoroshiku.png'
                     alt="宜しく logo"
                     width={180}
                     height={38}
                     />
                     </Link> 
+                    
 
                     <div className="flex space-x-6">
                       <SearchFilters />

@@ -14,14 +14,14 @@ const PropertyListItem = () => {
         </div>
 
         <div className="mt-2">
-            <p className="text-lg font-bold">
+            <p className="text-md font-medium ">
                 Property name
             </p>
         </div>
 
         <div className="mt-2">
             <p className="text-sm text-gray-500">
-                <strong className="!text-black">$200</strong> per night
+                <span className="!text-black font-medium">$200</span> per night
             </p>
         </div>
     </div>

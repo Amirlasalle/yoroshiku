@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         airbnb: '#ff385c',
-        airbnbDark : '#d50027',
+        airbnbDark: '#d50027',
+        hoverGray: '#F7F7F7',
+        outlineGray: "#b0b0b0",
         default: '#aeaeae',
         spotifyGreen:"#1ed760",
         spotifyLight:"#23f36b",
@@ -25,6 +27,44 @@ const config: Config = {
         colombianRed: "#C8102E",
       },
       
+
+    },
+
+    screens: {
+      "2xl": { max: "1535px" },
+      // => @media (max-width: 1535px) { ... }
+
+      xl: { max: "1279px" },
+      // => @media (max-width: 1279px) { ... }
+
+      lgx: { max: "1107px" },
+      // => @media (max-width: 1023px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (max-width: 639px) { ... }
+
+      xs: {max: "520px"},
+
+      xxs: { max: "420px" },
+      // => @media (max-width: 479px) { ... }
+
+      "2xlmin": { min: "1535px" },
+      // => @media (min-width: 1535px) { ... }
+
+      xlmin: { min: "1279px" },
+      // => @media (min-width: 1279px) { ... }
+
+      lgxmin: { min: "1107px" },
+
+      lgmin: { min: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
     },
     
   },
