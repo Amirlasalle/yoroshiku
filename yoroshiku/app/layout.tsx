@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
+import Modal from "./components/modals/Modal";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -15,6 +16,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const content = (
+    <p>How are you today?</p>
+  )
   return (
     <html lang="en">
       <body className={inter.className}>
